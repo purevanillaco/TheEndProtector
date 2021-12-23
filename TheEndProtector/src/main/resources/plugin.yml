@@ -1,0 +1,26 @@
+main: me.Engineer9736.TheEndProtector.Main
+name: TheEndProtector
+version: 0.5
+authors: [Engineer9736, quiquelhappy]
+api-version: 1.18
+depend: [CoreProtect]
+
+commands:
+  removedragon:
+    permission: "theEndProtector.removeDragon"
+    description: "Remove the dragon without the beaten sequence"
+  spawndragon:
+    permission: "theEndProtector.spawnDragon"
+    description: "Spawn the dragon"
+  killdragon:
+    permission: "theEndProtector.killDragon"
+    description: "Kill the dragon inc. beaten sequence"
+  goto_end:
+    permission: "theEndProtector.endTp"
+    description: "Teleport yourself to The End"
+  goto_overworld:
+    permission: "theEndProtector.overworldTp"
+    description: "Teleport yourself to the overworld"
+  rollbacktest:
+    permission: "theEndProtector.rollbackTest"
+    description: "Run the rollback function. Note that the dragon needs to have been spawned once. Otherwise the plugin doesn't know what time to rollback to"
